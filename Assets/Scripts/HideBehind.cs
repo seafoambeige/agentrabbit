@@ -22,11 +22,7 @@ public class Collisions : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
-    }
-    private void OnTriggerStay2D(Collider2D rcollider)
+   /* private void OnTriggerStay2D(Collider2D rcollider)
     {
         Debug.Log("colliding");
         if (Input.GetKey(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
@@ -35,5 +31,5 @@ public class Collisions : MonoBehaviour
             rm.HideRabbit();
         }
             
-    }
+    }*/
 }
