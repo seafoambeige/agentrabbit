@@ -6,8 +6,6 @@ public class RabbitMovement : MonoBehaviour
 {
     Rigidbody2D rb;
     bool isHidden;
-    bool isPressed;
-    private float time;
     private State state;
     private enum State
     {
@@ -19,8 +17,6 @@ public class RabbitMovement : MonoBehaviour
     {
         state = State.Normal;
         rb = GetComponent<Rigidbody2D>();
-        //isHidden = false;
-        isPressed = false;
     }
 
     // Update is called once per frame
@@ -56,16 +52,6 @@ public class RabbitMovement : MonoBehaviour
                 HideRabbit();
             }
         }
-        /*if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) {
-            HideRabbit();
-        }
-        if (Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow)) {
-            time = 0f;
-        }*/
-
-
-
-
 
 
     }
@@ -89,29 +75,18 @@ public class RabbitMovement : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.layer == 6)
-        {
-            Debug.Log("collision happening");
-            Debug.Log("colliding hide");
-                if (isPressed)
-                {
-                    Debug.Log("hiding rabbit");
-                   // HideRabbit();
-                }
-        }
-        if (other.gameObject.layer == 7)
-        {
-            Debug.Log("collision happening");
-            Debug.Log("colliding break");
-        }
-    }
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.layer == 6)
         {
             state = State.Normal;
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D other) { 
+  
+        if(other.gameObject.layer == 7)
+        {
+            Debug.Log("collided");
         }
     }
 }
