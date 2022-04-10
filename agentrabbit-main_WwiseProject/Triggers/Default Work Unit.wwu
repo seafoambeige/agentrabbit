@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D4BB305D-30A9-486E-9542-41E0104AF7D7}" SchemaVersion="103">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{D4BB305D-30A9-486E-9542-41E0104AF7D7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="LPZone" ID="{54A396BE-26F1-4D0D-8B3E-B5BE02E40B52}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

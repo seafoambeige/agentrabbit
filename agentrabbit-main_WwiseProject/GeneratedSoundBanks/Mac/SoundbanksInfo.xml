@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\miste\Downloads\agentrabbit-main(2)\agentrabbit-main\agentrabbit-main_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\miste\Downloads\agentrabbit-main(2)\agentrabbit-main\agentrabbit-main_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\miste\Downloads\agentrabbit-main(2)\agentrabbit-main\agentrabbit-main_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\miste\Downloads\agentrabbit-main(2)\agentrabbit-main\agentrabbit-main_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2880737896" Language="English(US)" Hash="1297359953">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainBank</ObjectPath>
+			<ShortName>MainBank</ShortName>
+			<Path>English(US)\MainBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3034803433" Name="HideLP" ObjectPath="\Events\Default Work Unit\HideLP" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2227808843" Name="LPZone" ObjectPath="\Triggers\Default Work Unit\LPZone"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3431436871" Name="PlayMainTheme" ObjectPath="\Events\Default Work Unit\PlayMainTheme" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="418078912" Language="English(US)">
+							<ShortName>AR_Main.wav</ShortName>
+							<Path>Voices\English(US)\AR_Main_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2708562500" Name="PlaySteps" ObjectPath="\Events\Default Work Unit\PlaySteps" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="13234775" Language="SFX">
+							<ShortName>footsteps.wav</ShortName>
+							<Path>SFX\footsteps_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2797663990" Name="ResetLP" ObjectPath="\Events\Default Work Unit\ResetLP" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3774011366" Name="StopSteps" ObjectPath="\Events\Default Work Unit\StopSteps" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="13234775" Language="SFX">
+					<ShortName>footsteps.wav</ShortName>
+					<Path>SFX\footsteps_D79FB2B7.wem</Path>
+				</File>
+				<File Id="179407436" Language="SFX">
+					<ShortName>brokenglass.wav</ShortName>
+					<Path>SFX\brokenglass_10C4C929.wem</Path>
+				</File>
+				<File Id="307750675" Language="English(US)">
+					<ShortName>AR_Tense.wav</ShortName>
+					<Path>Voices\English(US)\AR_Tense_10C4C929.wem</Path>
+				</File>
+				<File Id="341785279" Language="SFX">
+					<ShortName>clang.wav</ShortName>
+					<Path>SFX\clang_10C4C929.wem</Path>
+				</File>
+				<File Id="418078912" Language="English(US)">
+					<ShortName>AR_Main.wav</ShortName>
+					<Path>Voices\English(US)\AR_Main_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<Triggers>
+				<Trigger Id="2227808843" Name="LPZone" ObjectPath="\Triggers\Default Work Unit\LPZone"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

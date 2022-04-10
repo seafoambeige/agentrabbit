@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3FD12FA4-E602-4FF0-BF92-C5E29153BED4}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3FD12FA4-E602-4FF0-BF92-C5E29153BED4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayMainTheme" ID="{8057A1D7-7785-4C82-8F46-87DB9F6EF7FF}">
+					<ChildrenList>
+						<Action Name="" ID="{331C8026-E796-4844-B015-3BC8A121C70B}" ShortID="775510575">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AR_Main" ID="{E738064E-147B-4095-AFFD-A7D01D5B5441}" WorkUnitID="{4A08FB1A-93EE-47D7-9F7A-1050148E37AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="HideLP" ID="{DFE1FA3A-53AB-4026-8D5D-065B9A99AC8B}">
+					<ChildrenList>
+						<Action Name="" ID="{DDB13EE1-898C-436B-AAD6-D89431D5FFF7}" ShortID="673602092">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Lowpass" Type="int16" Value="50"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AR_Main" ID="{E738064E-147B-4095-AFFD-A7D01D5B5441}" WorkUnitID="{4A08FB1A-93EE-47D7-9F7A-1050148E37AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9437A22D-3942-4A86-A4E3-CC3DA8EC5A65}" ShortID="692924845">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LPZone" ID="{54A396BE-26F1-4D0D-8B3E-B5BE02E40B52}" WorkUnitID="{D4BB305D-30A9-486E-9542-41E0104AF7D7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ResetLP" ID="{B25C3CC5-BB49-4174-BEF0-8B84103936D9}">
+					<ChildrenList>
+						<Action Name="" ID="{23C8B27D-8CBD-4B3E-9968-C89B64A50AD1}" ShortID="134839429">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="27"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AR_Main" ID="{E738064E-147B-4095-AFFD-A7D01D5B5441}" WorkUnitID="{4A08FB1A-93EE-47D7-9F7A-1050148E37AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2708562500	PlaySteps			\Default Work Unit\PlaySteps	
+	2797663990	ResetLP			\Default Work Unit\ResetLP	
+	3034803433	HideLP			\Default Work Unit\HideLP	
+	3431436871	PlayMainTheme			\Default Work Unit\PlayMainTheme	
+	3774011366	StopSteps			\Default Work Unit\StopSteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	13234775	footsteps	C:\Users\miste\Downloads\agentrabbit-main(2)\agentrabbit-main\agentrabbit-main_WwiseProject\.cache\Mac\SFX\footsteps_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps		256072
+	179407436	brokenglass	C:\Users\miste\Downloads\agentrabbit-main(2)\agentrabbit-main\agentrabbit-main_WwiseProject\.cache\Mac\SFX\brokenglass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\brokenglass		48916
+	307750675	AR_Tense	C:\Users\miste\Downloads\agentrabbit-main(2)\agentrabbit-main\agentrabbit-main_WwiseProject\.cache\Mac\Voices\English(US)\AR_Tense_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AR_Tense		2688064
+	341785279	clang	C:\Users\miste\Downloads\agentrabbit-main(2)\agentrabbit-main\agentrabbit-main_WwiseProject\.cache\Mac\SFX\clang_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\clang		89940
+	418078912	AR_Main	C:\Users\miste\Downloads\agentrabbit-main(2)\agentrabbit-main\agentrabbit-main_WwiseProject\.cache\Mac\Voices\English(US)\AR_Main_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AR_Main		2688064
+

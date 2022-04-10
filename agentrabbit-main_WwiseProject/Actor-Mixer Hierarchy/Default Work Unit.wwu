@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4A08FB1A-93EE-47D7-9F7A-1050148E37AF}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{4A08FB1A-93EE-47D7-9F7A-1050148E37AF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="clang" ID="{3A019F0D-DA43-48E6-9AD6-94187EBBF8CA}" ShortID="241604572">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{077D5003-4B93-4607-881F-7BD25E1E6EFF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DB813D5-D699-4A2C-A2E9-7323B39BB5DD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="clang" ID="{A030FB97-B5CB-43AB-946C-4D9EBA5F9AAE}">
+							<Language>SFX</Language>
+							<AudioFile>clang.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="341785279"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="clang" ID="{A030FB97-B5CB-43AB-946C-4D9EBA5F9AAE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="footsteps" ID="{C57BA761-631E-495C-9660-D1069B26CEE9}" ShortID="94481478">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{077D5003-4B93-4607-881F-7BD25E1E6EFF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DB813D5-D699-4A2C-A2E9-7323B39BB5DD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="footsteps" ID="{9C9C9DC0-6A37-439B-A9B3-69D3C0D0BD35}">
+							<Language>SFX</Language>
+							<AudioFile>footsteps.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="13234775"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="footsteps" ID="{9C9C9DC0-6A37-439B-A9B3-69D3C0D0BD35}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="brokenglass" ID="{09D5B5FD-D1BB-4163-869C-28FD8FEE5FF4}" ShortID="306652382">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{077D5003-4B93-4607-881F-7BD25E1E6EFF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DB813D5-D699-4A2C-A2E9-7323B39BB5DD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="brokenglass" ID="{E137AA20-E6AB-4230-9FDD-428FAB2F65C7}">
+							<Language>SFX</Language>
+							<AudioFile>brokenglass.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="179407436"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="brokenglass" ID="{E137AA20-E6AB-4230-9FDD-428FAB2F65C7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AR_Main" ID="{E738064E-147B-4095-AFFD-A7D01D5B5441}" ShortID="1009987047">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{077D5003-4B93-4607-881F-7BD25E1E6EFF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DB813D5-D699-4A2C-A2E9-7323B39BB5DD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AR_Main" ID="{6381F5DB-80A6-48BD-B1ED-8B3EEB9573EC}">
+							<Language>English(US)</Language>
+							<AudioFile>AR_Main.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="418078912"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="AR_Main" ID="{6381F5DB-80A6-48BD-B1ED-8B3EEB9573EC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AR_Tense" ID="{ED2DB674-79B3-4386-A5D7-1FFDB2FEAB93}" ShortID="955694800">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{077D5003-4B93-4607-881F-7BD25E1E6EFF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DB813D5-D699-4A2C-A2E9-7323B39BB5DD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AR_Tense" ID="{D8C33C25-D8F9-48A2-BA71-B51CCFE1C612}">
+							<Language>English(US)</Language>
+							<AudioFile>AR_Tense.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="307750675"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="AR_Tense" ID="{D8C33C25-D8F9-48A2-BA71-B51CCFE1C612}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
